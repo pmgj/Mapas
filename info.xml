@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<estados>
+    <estado id="ac">
+        <populacao>758786</populacao>
+        <capital>Rio Branco</capital>
+        <pib>8477000000</pib>
+    </estado>
+    <estado id="al">
+        <populacao>3120922</populacao>
+        <capital>Maceió</capital>
+        <pib>24575000000</pib>
+    </estado>
+    <estado id="am">
+        <populacao>3590985</populacao>
+        <capital>Manaus</capital>
+        <pib>59779000000</pib>
+    </estado>
+    <estado id="ap">
+        <populacao>698602</populacao>
+        <capital>Macapá</capital>
+        <pib>8266000000</pib>
+    </estado>
+    <estado id="ba">
+        <populacao>14175341</populacao>
+        <capital>Salvador</capital>
+        <pib>154340000000</pib>
+    </estado>
+    <estado id="ce">
+        <populacao>8448055</populacao>
+        <capital>Fortaleza</capital>
+        <pib>77685000000</pib>
+    </estado>
+    <estado id="df">
+        <populacao>2562963</populacao>
+        <capital>Brasília</capital>
+        <pib>149906000000</pib>
+    </estado>
+    <estado id="es">
+        <populacao>3512672</populacao>
+        <capital>Vitória</capital>
+        <pib>82122000000</pib>
+    </estado>
+    <estado id="go">
+        <populacao>6154996</populacao>
+        <capital>Goiânia</capital>
+        <pib>97576000000</pib>
+    </estado>
+    <estado id="ma">
+        <populacao>6569683</populacao>
+        <capital>São Luís</capital>
+        <pib>39855000000</pib>
+    </estado>
+    <estado id="mg">
+        <populacao>19595309</populacao>
+        <capital>Belo Horizonte</capital>
+        <pib>351381000000</pib>
+    </estado>
+    <estado id="ms">
+        <populacao>2449341</populacao>
+        <capital>Campo Grande</capital>
+        <pib>43514000000</pib>
+    </estado>
+    <estado id="mt">
+        <populacao>3115336</populacao>
+        <capital>Cuiabá</capital>
+        <pib>59600000000</pib>
+    </estado>
+    <estado id="pa">
+        <populacao>7792561</populacao>
+        <capital>Belém</capital>
+        <pib>77848000000</pib>
+    </estado>
+    <estado id="pb">
+        <populacao>3815171</populacao>
+        <capital>João Pessoa</capital>
+        <pib>31947000000</pib>
+    </estado>
+    <estado id="pe">
+        <populacao>8931028</populacao>
+        <capital>Recife</capital>
+        <pib>95187000000</pib>
+    </estado>
+    <estado id="pi">
+        <populacao>3140213</populacao>
+        <capital>Teresina</capital>
+        <pib>22600000000</pib>
+    </estado>
+    <estado id="pr">
+        <populacao>10439601</populacao>
+        <capital>Curitiba</capital>
+        <pib>217290000000</pib>
+    </estado>
+    <estado id="rj">
+        <populacao>15993583</populacao>
+        <capital>Rio de Janeiro</capital>
+        <pib>407100000000</pib>
+    </estado>
+    <estado id="rn">
+        <populacao>3168027</populacao>
+        <capital>Natal</capital>
+        <pib>32339000000</pib>
+    </estado>
+    <estado id="ro">
+        <populacao>1590011</populacao>
+        <capital>Porto Velho</capital>
+        <pib>23561000000</pib>
+    </estado>
+    <estado id="rr">
+        <populacao>469524</populacao>
+        <capital>Boa Vista</capital>
+        <pib>6341000000</pib>
+    </estado>
+    <estado id="rs">
+        <populacao>10693929</populacao>
+        <capital>Porto Alegre</capital>
+        <pib>252483000000</pib>
+    </estado>
+    <estado id="sc">
+        <populacao>6248436</populacao>
+        <capital>Florianópolis</capital>
+        <pib>152482000000</pib>
+    </estado>
+    <estado id="se">
+        <populacao>2110867</populacao>
+        <capital>Aracaju</capital>
+        <pib>23932000000</pib>
+    </estado>
+    <estado id="sp">
+        <populacao>41252160</populacao>
+        <capital>São Paulo</capital>
+        <pib>1248000000000</pib>
+    </estado>
+    <estado id="to">
+        <populacao>1417694</populacao>
+        <capital>Palmas</capital>
+        <pib>17240000000</pib>
+    </estado>
+</estados>

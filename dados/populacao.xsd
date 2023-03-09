@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <xs:element name="root">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="description" type="xs:string" />
+                <xs:element name="estado" type="tEstado" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="tEstado">
+        <xs:sequence>
+            <xs:element name="cidade" type="tCidade" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="name" type="xs:string" />
+        <xs:attribute name="id">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="ac" />
+                    <xs:enumeration value="al" />
+                    <xs:enumeration value="ap" />
+                    <xs:enumeration value="am" />
+                    <xs:enumeration value="ba" />
+                    <xs:enumeration value="ce" />
+                    <xs:enumeration value="df" />
+                    <xs:enumeration value="es" />
+                    <xs:enumeration value="go" />
+                    <xs:enumeration value="ma" />
+                    <xs:enumeration value="mt" />
+                    <xs:enumeration value="ms" />
+                    <xs:enumeration value="mg" />
+                    <xs:enumeration value="pa" />
+                    <xs:enumeration value="pb" />
+                    <xs:enumeration value="pr" />
+                    <xs:enumeration value="pe" />
+                    <xs:enumeration value="pi" />
+                    <xs:enumeration value="rj" />
+                    <xs:enumeration value="rn" />
+                    <xs:enumeration value="rs" />
+                    <xs:enumeration value="ro" />
+                    <xs:enumeration value="rr" />
+                    <xs:enumeration value="sc" />
+                    <xs:enumeration value="sp" />
+                    <xs:enumeration value="se" />
+                    <xs:enumeration value="to" />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="tCidade">
+        <xs:attribute name="codigo" type="xs:positiveInteger" />
+        <xs:attribute name="name" type="xs:string" />
+        <xs:attribute name="pop" type="xs:positiveInteger" />
+    </xs:complexType>
+</xs:schema>

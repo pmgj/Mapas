@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
 <estados>
     <estado id="ac">
         <populacao>758786</populacao>
@@ -7,7 +6,7 @@
     </estado>
     <estado id="al">
         <populacao>3120922</populacao>
-        <capital>Maceió</capital>
+        <capital>MaceiÃ³</capital>
         <pib>24575000000</pib>
     </estado>
     <estado id="am">
@@ -17,7 +16,7 @@
     </estado>
     <estado id="ap">
         <populacao>698602</populacao>
-        <capital>Macapá</capital>
+        <capital>MacapÃ¡</capital>
         <pib>8266000000</pib>
     </estado>
     <estado id="ba">
@@ -32,22 +31,22 @@
     </estado>
     <estado id="df">
         <populacao>2562963</populacao>
-        <capital>Brasília</capital>
+        <capital>BrasÃ­lia</capital>
         <pib>149906000000</pib>
     </estado>
     <estado id="es">
         <populacao>3512672</populacao>
-        <capital>Vitória</capital>
+        <capital>VitÃ³ria</capital>
         <pib>82122000000</pib>
     </estado>
     <estado id="go">
         <populacao>6154996</populacao>
-        <capital>Goiânia</capital>
+        <capital>GoiÃ¢nia</capital>
         <pib>97576000000</pib>
     </estado>
     <estado id="ma">
         <populacao>6569683</populacao>
-        <capital>São Luís</capital>
+        <capital>SÃ£o LuÃ­s</capital>
         <pib>39855000000</pib>
     </estado>
     <estado id="mg">
@@ -62,17 +61,17 @@
     </estado>
     <estado id="mt">
         <populacao>3115336</populacao>
-        <capital>Cuiabá</capital>
+        <capital>CuiabÃ¡</capital>
         <pib>59600000000</pib>
     </estado>
     <estado id="pa">
         <populacao>7792561</populacao>
-        <capital>Belém</capital>
+        <capital>BelÃ©m</capital>
         <pib>77848000000</pib>
     </estado>
     <estado id="pb">
         <populacao>3815171</populacao>
-        <capital>João Pessoa</capital>
+        <capital>JoÃ£o Pessoa</capital>
         <pib>31947000000</pib>
     </estado>
     <estado id="pe">
@@ -117,7 +116,7 @@
     </estado>
     <estado id="sc">
         <populacao>6248436</populacao>
-        <capital>Florianópolis</capital>
+        <capital>FlorianÃ³polis</capital>
         <pib>152482000000</pib>
     </estado>
     <estado id="se">
@@ -127,7 +126,7 @@
     </estado>
     <estado id="sp">
         <populacao>41252160</populacao>
-        <capital>São Paulo</capital>
+        <capital>SÃ£o Paulo</capital>
         <pib>1248000000000</pib>
     </estado>
     <estado id="to">

@@ -1,3 +1,7 @@
+:root {
+    --custom-color: green;
+}
+
 div {
     width: 40%;
     height: 40%;
@@ -24,6 +28,7 @@ caption {
     border: 1px solid black;
 }
 
-th {
-    background-color: green;
+th,
+caption {
+    background-color: var(--custom-color);
 }

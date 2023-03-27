@@ -5,30 +5,20 @@ class GUI {
         this.xml = null;
         this.xsl = null;
     }
-    getXML() {
-        if (this.xhr1.readyState === 4) {
-            this.xml = this.xhr1.responseXML;
-        }
-    }
-    getXSL() {
-        if (this.xhr2.readyState === 4) {
-            this.xsl = this.xhr2.responseXML;
-        }
-    }
     loadXMLDoc() {
-        this.xhr1.onreadystatechange = this.getXML.bind(this);
-        this.xhr1.open("get", "info.xml", true);
-        this.xhr1.send(null);
+        this.xhr1.onload = () => this.xml = this.xhr1.responseXML;
+        this.xhr1.open("get", "info.xml");
+        this.xhr1.send();
     }
     loadXSLDoc() {
-        this.xhr2.onreadystatechange = this.getXSL.bind(this);
-        this.xhr2.open("get", "stylesheet.xsl", true);
-        this.xhr2.send(null);
+        this.xhr2.onload = () => this.xsl = this.xhr2.responseXML;
+        this.xhr2.open("get", "stylesheet.xsl");
+        this.xhr2.send();
     }
     showData(evt) {
         let path = evt.currentTarget;
         if (this.xml !== undefined && this.xsl !== undefined) {
-            var xsltProcessor = new XSLTProcessor();
+            let xsltProcessor = new XSLTProcessor();
             xsltProcessor.importStylesheet(this.xsl);
             xsltProcessor.setParameter(null, "code", path.id);
             xsltProcessor.setParameter(null, "title", path.querySelector("title").textContent);
@@ -36,9 +26,8 @@ class GUI {
             let results = document.getElementById("results");
             results.innerHTML = "";
             results.appendChild(resultDocument);
-            let x = document.styleSheets[0];
-            x.deleteRule(x.cssRules.length - 1);
-            x.insertRule(`caption, th { background-color: ${window.getComputedStyle(path, null).fill} }`, x.cssRules.length);
+            let r = document.querySelector(':root');
+            r.style.setProperty('--custom-color', window.getComputedStyle(path, null).fill);
         } else {
             console.log("XML ou XSLT não foram carregados!");
         }
@@ -48,12 +37,8 @@ class GUI {
         this.loadXSLDoc();
         let map = document.getElementById("map");
         let doc = map.getSVGDocument();
-        let estados = doc.getElementsByTagName("path");
-        for (var i = 0; i < estados.length; i++) {
-            let estado = estados[i];
-            estado.onmouseover = this.showData.bind(this);
-        }
-        doc.styleSheets[0].deleteRule(doc.styleSheets[0].cssRules.length - 1);
+        let estados = doc.querySelectorAll("path");
+        estados.forEach(e => e.onmouseover = this.showData.bind(this));
     }
 }
 onload = () => {
